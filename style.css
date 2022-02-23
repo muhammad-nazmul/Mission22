@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width: 1180px;
+    display: flex;
+    margin:auto;
+    justify-content: space-around;
+}
+/* Header */
+.title{
+    border-left: 3px solid orangered;
+    border-radius: 2px;
+    padding-left: 10px;
+ 
+}
+/* .header{
+    display: flex;
+    justify-content: space-around;
+} */
+.header-left{
+     padding: 100px;
+    margin-left: 10px; 
+}
+.mission{
+    color:rgb(255, 72, 0);
+    margin:20px 0px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.Focused{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.header-img{
+    width: 450px;
+    height: 450px;
+    padding:20px 0px 20px 50px;
+    margin-right: 30px;
+}
+.header-description{
+    line-height: 23px;
+    letter-spacing: 1px;
+    color:rgb(73, 73, 73);
+    padding:10px 0px 20px 0px
+}
+.header-btn{
+    padding:11px 25px;
+    border-radius: 7px;
+    color:azure;
+    background-color:rgb(255, 72, 0);
+    font-size: 15px;
+    border: none;
+}
+
+.more-info{
+    padding-top:50px;
+    color:rgb(65, 65, 65);
+}
+
+/* Section */
+.mission-plan{
+    text-align: center;
+    padding:20px 0px 50px 0px;
+    font-size:28px;
+}
+.year{
+    color:rgb(255, 72, 0);
+}
+.main-plan{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 100px 0px;
+    
+}
+.mission-img{
+    width: 180px;
+    height: 180px;
+
+}
+.mission-des{
+    padding: 20px 30px;
+}
+.vission-des{
+    padding: 20px 30px;
+}
+.goals-des{
+    padding: 20px 30px;
+}
+.mission-title{
+    padding: 0px 0px 18px 0px;
+}
+.vission-title{
+    padding: 0px 0px 18px 0px;
+}
+.goals-title{
+    padding: 0px 0px 18px 0px;
+}
+.mission-description{
+    line-height: 23px;
+    letter-spacing: 1px;
+    color:rgb(14, 14, 14)
+}
+.vission-description{
+    line-height: 23px;
+    letter-spacing: 1px;
+    color:rgb(14, 14, 14)
+}
+.goals-description{
+    line-height: 23px;
+    letter-spacing: 1px;
+    color:rgb(14, 14, 14)
+}
+
+.target{
+    /* width: 400px;
+    height: 400px; */
+    background-color: rgb(150, 129, 170);
+    margin:0px 20px 0px 20px;
+    border-radius: 15px;
+}
+.vission{
+    /* width: 400px;
+    height: 400px; */
+    background-color: rgb(151, 174, 192);
+    margin:0px 20px 0px 20px;
+    border-radius: 15px;
+}
+.goals{
+    /* width: 400px;
+    height: 400px; */
+    background-color: rgb(148, 153, 125);
+    margin:0px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+/* Develop Section */
+.codding-img{
+    width:350px;
+    height:350px;
+    padding:30px 20px;
+
+}
+.develop-des{
+    padding:40px 80px;
+}
+.develop-title{
+    padding-bottom: 10px;
+}
+.develop-description{
+    padding:30px 0px;
+    line-height: 23px;
+}
+
+
+/* Develop Section */
+.project-img{
+    width:350px;
+    height:350px;
+    padding:30px 20px;
+}
+.Community-des{
+    padding:40px 80px;
+}
+.Community-title{
+    padding-bottom: 10px;
+}
+.Community-description{
+    padding:30px 0px;
+    line-height: 23px;
+}
+
+/* future technology */
+.web-img{
+    width:400px;
+    height:300px;
+    padding:30px 20px;
+}
+
+.future-des{
+    padding:40px 80px;
+}
+
+.future-description{
+    padding:30px 0px;
+    line-height: 23px;
+}
+.version{
+    color:orangered;
+}
+
+
+/* Footer */
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding:10px;
+    color: azure;
+}
+.footer-des{
+    text-align: center;
+    padding-bottom: 30px;
+}
